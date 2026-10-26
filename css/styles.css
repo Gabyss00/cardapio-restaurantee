@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Limelight&family=Tienne:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Limelight&family=Tienne:wght@400;700;900&display=swap');
+
+body{
+    background-color: rgb(245, 220, 220);
+    font-family: cursive;
+    text-align: center;
+    margin: 0;
+}
+
+/*topo*/
+
+.topo{
+    background-color: rgb(228, 177, 177);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.topo img{
+    width: 260px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.3;
+}
+.topo img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+/*seções*/
+
+.servicos, .pratos, .cardapio{
+    background-color: rgb(236, 186, 186);
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    font-family: "Tienne", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.servicos:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.pratos:hover{
+    transform: scale(1.02);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.cardapio:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+/*titulos*/
+
+h2{
+    color: rgb(112, 13, 13);
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+/*listas*/
+
+ul, ol{
+    text-align: left;
+    width: 60%;
+    margin:15px;
+    font-size: 20px;
+    list-style-type: disc;
+}
+
+li{
+    margin: 10px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+li:hover{
+    transform:scale(1.05);
+}
+
+/*tabela*/
+
+table{
+    width: 80%;
+    margin:auto;
+    border-collapse: collapse;
+    border: 2px;
+    padding: 20px;
+}
+
+th{
+    background-color: rgb(217, 163, 163);
+    font-family: Rubita;
+    font-size: 20px;
+    
+}
+th,td{
+    border: 1px solid rgb(190, 109, 109);
+    padding: 15px;
+}
+
+tr:hover {
+    background-color: rgb(197, 144, 144);
+}
+
+footer {
+    background-color: rgb(236, 186, 186);
+    color: rgb(104, 16, 16);
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.info{
+    text-align:left;
+
+}
+
